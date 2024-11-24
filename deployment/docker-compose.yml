@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  ai-document-generation:
+    build:
+      context: ../backend/ai_document_generation
+    ports:
+      - "8003:80"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}

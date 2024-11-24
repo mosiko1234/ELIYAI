@@ -1,0 +1,1 @@
+output functionAppUrl string
